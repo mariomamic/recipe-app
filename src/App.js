@@ -20,18 +20,9 @@ class App extends Component {
     }
   }
 
-  changeIndex = index => {
-    this.setState({
-      pageIndex: index
-    })
-  }
+  changeIndex = index => { this.setState({ pageIndex: index }) }
 
-  changeDetails = (index, id) => {
-    this.setState({
-      pageIndex: index,
-      details_id: id
-    })
-  }
+  changeDetails = (index, id) => { this.setState({ pageIndex: index, details_id: id }) }
 
   render() {
     return (
